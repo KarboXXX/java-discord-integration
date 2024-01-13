@@ -1,0 +1,18 @@
+name: DiscordIntegration
+version: '${project.version}'
+main: org.karbox.dev.DiscordIntegration
+api-version: '1.20'
+authors: [KarboXXX]
+commands:
+  toaqui:
+    description: "Manda sua localização no chat, ou para algum jogador"
+    usage: "/toaqui <chat>"
+    aliases: []
+    permission-message: "Você não tem permissão pra isso"
+    permission: toaqui.command
+  waypoint:
+    description: "Salva uma coordenada no chat do Discord."
+    usage: "/waypoint [x] [y] [z] [world] [...nome]"
+    aliases: []
+    permission: waypoint.command
+    permission-message: "Você não tem permissão para usar o comando de waypoint."

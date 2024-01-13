@@ -1,0 +1,8 @@
+token: ""
+runNgrok: false
+webhooksURL: [
+            serverStatus: "",
+            joinLeave: "",
+            waypoint: "",
+            deaths: ""
+]
